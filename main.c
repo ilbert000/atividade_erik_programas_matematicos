@@ -8,10 +8,6 @@
 #include "./operacao/o_seno_da_diferenca_do_primeiro_numero_pelo_segundo.c"
 #include "./operacao/modulo.c"
 
-void esperar(int segundos) {
-    Sleep(segundos * 1000);
-}
-
 int main() {
     int option;
     printf("==================================\n");
@@ -43,7 +39,6 @@ int main() {
                 break;
             case 7:
                 printf("saindo...\n");
-                esperar(2);
                 break;
             default:
                 printf("opcao invalida, tente novamente: \n");
