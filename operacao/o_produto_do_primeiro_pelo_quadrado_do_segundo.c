@@ -2,7 +2,8 @@
 #include <math.h>
 
 produto() {
-    double n1, n2, resultado, potencia;
+    double n1, n2, resultado;
+    int potencia;
     
     printf("Digite o primeiro numero: \n");
     scanf("%lf", &n1);

@@ -10,9 +10,10 @@ somaQuadrados() {
     printf("Digite o segundo numero: \n");
     scanf("%lf", &b);
     printf("Digite a potencia: \n");
-    scanf("%lf", &potencia);
+    scanf("%d", &potencia);
 
     resultado = sqrt(a*potencia + b*potencia);
 
     printf("O resultado da raiz quadrada da soma dos quadrados e: %0.2lf\n", resultado);
+    return 0;
 }

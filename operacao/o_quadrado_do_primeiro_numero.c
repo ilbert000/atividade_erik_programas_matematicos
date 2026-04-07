@@ -2,12 +2,13 @@
 #include <math.h>
 
 quadrado() {
-    double n1, quadrado, resultado;
-    
+    double n1, resultado;
+    int quadrado;
+
     printf("Digite o numero: \n");
     scanf("%lf", &n1);
     printf("Digite o quadrado: \n");
-    scanf("%lf", &quadrado);
+    scanf("%d", &quadrado);
     
     resultado = pow(n1, quadrado);
 
